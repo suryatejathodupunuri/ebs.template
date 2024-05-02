@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Bg from '../Bg.png'
+import Bg from '../../assets/Bg.png';
 
 const Landing = () => {
   return (
@@ -12,7 +12,7 @@ const Landing = () => {
         </div>
       </div>
       <div className="w-1/2 flex items-center justify-center">
-        <img src={Bg} alt="Image" className="max-w-full max-h-full" />
+        <img src={Bg} alt="background" className="max-w-full max-h-full" />
       </div>
     </div>
   );
