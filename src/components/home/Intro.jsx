@@ -1,8 +1,7 @@
-// Landing.js
 import React from 'react';
 import Bg from '../../assets/Bg.png';
 
-const Landing = () => {
+const Intro = () => {
   return (
     <div className="bg-blue-100 h-screen flex p-6 ">
       <div className="w-1/2 flex items-center justify-center">
@@ -18,4 +17,4 @@ const Landing = () => {
   );
 };
 
-export default Landing;
+export default Intro;

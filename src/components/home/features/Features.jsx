@@ -1,5 +1,5 @@
 import React from 'react';
-import featureDetails from '../features/featuredetails.json';
+import featuresdata from '../features/featuresdata.json'
 
 const Features = () => {
   return (
@@ -11,7 +11,7 @@ const Features = () => {
       <div className="flex justify-center"> 
         <div className="grid grid-cols-4 gap-4">
           <div className="col-span-2">
-            {featureDetails.map((feature, index) => (
+            {featuresdata.map((feature, index) => (
               <div key={index} className="bg-white rounded-lg overflow-hidden mb-6 flex">
                 <img src={feature.image} alt={feature.feature} className="w-1/2 object-cover object-center" />
                 <div className="w-1/2 p-4">
