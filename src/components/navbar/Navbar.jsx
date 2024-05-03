@@ -2,7 +2,7 @@ import React from 'react';
 
 function Navbar() {
   return (
-    <nav className="shadow-2xl bg-white-200 dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+    <nav className="shadow-2xl bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
       <div className="screen-xl flex justify-between items-center mx-0 p-4">
         <span className="text-2xl font-semibold whitespace-nowrap dark:text-white">Bhashini Web Translation Plugin</span>
         <div className="right-0">

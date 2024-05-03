@@ -1,10 +1,10 @@
-
+// Landing.js
 import React from 'react';
 import Bg from '../../assets/Bg.png';
 
 const Landing = () => {
   return (
-    <div className="bg-blue-100 h-screen flex p-6">
+    <div className="bg-blue-100 h-screen flex p-6 ">
       <div className="w-1/2 flex items-center justify-center">
         <div className="text-black text-center">
           <h1 className="text-4xl font-bold mb-4">Bhashini Web Translation Plugin</h1>
